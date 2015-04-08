@@ -177,19 +177,18 @@
 	#header
 	{
 		position: relative;
-		background: #d64760 url('images/overlay.png');
+		background: white url('images/overlay.png');
 		color: #fff;
 		cursor: default;
+
+
 	}
 	
 		#header p
 		{
 			opacity: 0.65;
 		}
-
-img.logo {
-	width: 30px;
-	height: 30px; 
-	bottom: 100px;
-
+h2.james {
+	color: pink;
+	background-color: white;
 }

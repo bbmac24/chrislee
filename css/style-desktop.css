@@ -15,14 +15,15 @@
 
 	body
 	{
-		background-image:		url('images/overlay.png'),		-moz-linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),		url('../images/bg.jpg');
-		background-image:		url('images/overlay.png'),		-webkit-linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),	url('../images/bg.jpg');
+		background-image:		url('images/macbackground.jpg');
+
+		/*background-image:		url('images/overlay.png'),		-webkit-linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),	url('../images/bg.jpg');
 		background-image:		url('images/overlay.png'),		-o-linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),		url('../images/bg.jpg');
 		background-image:		url('images/overlay.png'),		-ms-linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),		url('../images/bg.jpg');
-		background-image:		url('images/overlay.png'),		linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),			url('../images/bg.jpg');
-		background-position:	top left,						bottom left,														auto;
-		background-size:		auto,							100% 100%,															cover;
-		background-repeat:		repeat,							no-repeat,															auto;
+		background-image:		url('images/overlay.png'),		linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),			url('../images/bg.jpg');*/
+	/*	background-position:	top left,						bottom left,	*/													
+		background-size: cover; 
+		background-repeat: no-repeat; 
 	}
 
 	body
@@ -130,6 +131,11 @@
 			font-size: 1.25em;
 			line-height: 1.5em;
 			margin: 0.5em 0 0 0;
+		}
+
+		img.logo {
+			position: relative !important;
+			top: -145px !important;
 		}
 		
 /*********************************************************************************/
