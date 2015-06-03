@@ -15,7 +15,7 @@
 
 	body
 	{
-		background-image:		url('images/macbackground.jpg');
+		background-color: grey;
 
 		/*background-image:		url('images/overlay.png'),		-webkit-linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),	url('../images/bg.jpg');
 		background-image:		url('images/overlay.png'),		-o-linear-gradient(top, rgba(0,0,0,0) 75%, rgba(0,0,0,0.65)),		url('../images/bg.jpg');
